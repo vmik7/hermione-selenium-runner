@@ -1,5 +1,6 @@
 const fsp = require('fs/promises');
 const delay = require('delay');
+const { spawn } = require('child_process');
 
 module.exports = (hermione) => {
     let selenium;
